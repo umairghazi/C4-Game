@@ -1,0 +1,64 @@
+/*#main {*/
+    /*position: relative;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+
+/*}*/
+
+#sidebar{
+    /*background-color: #b9f6ca;*/
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;
+    position: relative;
+
+}
+
+#chat-area{
+    /*text-align: center;*/
+    /*background-color: beige;*/
+}
+
+div.mdl-textfield {
+    position: relative;
+    /*right: 10px;*/
+    z-index: 9999;
+    width: 93%;
+}
+
+#msg-whole:hover{
+    background: rgb(255, 235, 59); /* make this whatever you want */
+}
+
+#newChatMessage{
+    width: 100%;
+}
+
+#send-chat{
+    /*position: fixed;*/
+    /*bottom: 0;*/
+}
+
+.chat-username{
+    background-color:rgb(255, 235, 59) ;
+    color: black;
+    font-weight: bold;
+}
+
+.message-text{
+    color: rgb(68, 138, 255) ;
+    font-style: italic;
+    font-size: large;
+    margin-left: 20px;
+}
+
+.message-time {
+    background-color:rgb(255, 235, 59) ;
+    color: black;
+    /*font-size: small;*/
+    margin-left: 20px;
+    float: right;
+}

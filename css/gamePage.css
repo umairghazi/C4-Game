@@ -1,0 +1,133 @@
+#chatLog {
+    background-color: #CCCCCC;
+    height: 480px;
+    border-radius: 20px;
+    padding: 10px;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+#addChat {
+    margin: 10px;
+}
+
+#background {
+    width: 100%;
+    fill: #EAEBEE;
+    /*stroke : black;
+    stroke-width : 2px; */
+}
+
+.player0 {
+    fill: yellow;
+    stroke: white;
+    stroke-width: 1px;
+}
+
+.player1 {
+    fill: red;
+    stroke: red;
+    stroke-width: 1px;
+}
+
+.htmlBlock {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    /*width : 200px;*/
+    /*height : 100px;*/
+    background: #ffc;
+    /*padding : 10px;*/
+    /*display : none;*/
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.piece_red {
+    fill: red;
+    stroke-width: 2px;
+    stroke: red;
+}
+
+.piece_yellow {
+    fill: yellow;
+    stroke-width: 2px;
+    stroke: red;
+}
+
+.cell_black {
+    fill: rgb(68, 138, 255);
+    stroke-width: 1px;
+    stroke: black;
+}
+
+.cell:hover {
+    opacity: .5;
+    /*background : url(../images/down.jpg); */
+}
+
+.cell_white {
+    fill: white;
+    stroke-width: 2px;
+    stroke: red;
+}
+
+.cell_alert {
+    fill: #336666;
+    stroke-width: 2px;
+    stroke: red;
+}
+
+.name_black {
+    fill: black;
+    font-size: 18px
+}
+
+.name_orange {
+    fill: orange;
+    font-size: 24px;
+}
+
+.boardBackground {
+    fill: #365D95;
+}
+
+#chat {
+    float: right;
+    padding: 20px;;
+    width: 27%;
+    height: 580px;
+    background-color: #EAEBEE;
+    border-radius: 40px 0px 0px 40px;
+}
+
+svg{
+    width: 700px;
+    height: 700px;
+}
+
+
+
+.chat-username{
+    background-color:rgb(255, 235, 59) ;
+    color: black;
+    font-weight: bold;
+}
+
+.message-text{
+    color: rgb(68, 138, 255) ;
+    font-style: italic;
+    font-size: large;
+    margin-left: 20px;
+}
+
+.message-time {
+    background-color:rgb(255, 235, 59) ;
+    color: black;
+    /*font-size: small;*/
+    margin-left: 20px;
+    float: right;
+}

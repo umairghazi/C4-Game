@@ -1,0 +1,30 @@
+.demo-card-wide.mdl-card {
+    width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    /*background: url('../assets/demos/welcome_card.jpg') center / cover;*/
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.form-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#alertMessage{
+    color: red;
+}
+
+#welcomeMessage{
+    margin: 10px;
+    text-align: center;
+    font-size: x-large;
+}
